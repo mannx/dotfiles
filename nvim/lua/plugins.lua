@@ -1,0 +1,35 @@
+return require("packer").startup(function(use)
+	use("wbthomason/packer.nvim")
+
+	-- switch between freq used files
+	use("nvim-lua/plenary.nvim")
+	use("ThePrimeagen/harpoon")
+
+	-- syntax highlighting / formatting
+	use("maxmellon/vim-jsx-pretty")
+	use{"fatih/vim-go", run = ':GoInstallBinaries'}
+	use("rust-lang/rust.vim")
+
+	-- quick commenting with gc/gcc/etc
+	use("tpope/vim-commentary")
+	
+	-- colour scheme
+	-- use("folke/tokyonight.nvim")
+	use("navarasu/onedark.nvim")
+
+	-- tree sitter for highlighting
+	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+
+	-- tree view for file browsing
+	use {
+		'kyazdani42/nvim-tree.lua',
+		requires = {
+			'kyazdani42/nvim-web-devicons',
+		},
+		tag = 'nightly',
+	}
+
+	-- fuzzy finder
+	use { 'junegunn/fzf'}
+	
+end)
