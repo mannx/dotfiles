@@ -32,4 +32,9 @@ return require("packer").startup(function(use)
 	-- fuzzy finder
 	use { 'junegunn/fzf'}
 	
+	-- telescope for opening files
+	use {
+		'nvim-telescope/telescope.nvim', tag = '0.1.0',
+		requires = { { 'nvim-lua/plenary.nvim'} }
+	}
 end)

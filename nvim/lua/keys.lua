@@ -24,3 +24,6 @@ nnoremap("<F1>", function() require("harpoon.ui").nav_file(1) end, silent)
 nnoremap("<F2>", function() require("harpoon.ui").nav_file(2) end, silent)
 nnoremap("<C-n>", function() require("harpoon.ui").nav_file(3) end, silent)
 nnoremap("<C-s>", function() require("harpoon.ui").nav_file(4) end, silent)
+
+-- telescope key binds
+nnoremap("<leader>ff", function() require("telescope.builtin").find_files() end, silent)

@@ -119,10 +119,10 @@ _G.packer_plugins = {
     path = "/home/pbr/.local/share/nvim/site/pack/packer/start/rust.vim",
     url = "https://github.com/rust-lang/rust.vim"
   },
-  ["tokyonight.nvim"] = {
+  ["telescope.nvim"] = {
     loaded = true,
-    path = "/home/pbr/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
-    url = "https://github.com/folke/tokyonight.nvim"
+    path = "/home/pbr/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   },
   ["vim-commentary"] = {
     loaded = true,
