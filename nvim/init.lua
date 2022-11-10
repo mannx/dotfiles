@@ -1,5 +1,6 @@
 require("plugins")
 require("keys")
+require("lsp")
 
 -- setup some editor options
 

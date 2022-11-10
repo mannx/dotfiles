@@ -104,9 +104,12 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=$PATH:/usr/local/go/bin
 
-export GOPATH=~/golib
-export PATH=$PATH:$GOPATH/bin
+# export GOPATH=~/golib
+# export PATH=$PATH:$GOPATH/bin
+# export GOPATH=~/code/
 export GOPATH=~/code/
+export PATH=$PATH:$GOPATH/bin
+
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
