@@ -1,6 +1,9 @@
 return require("packer").startup(function(use)
 	use("wbthomason/packer.nvim")
 
+	-- lsp
+	use("neovim/nvim-lspconfig")
+
 	-- switch between freq used files
 	use("nvim-lua/plenary.nvim")
 	use("ThePrimeagen/harpoon")
@@ -8,7 +11,9 @@ return require("packer").startup(function(use)
 	-- syntax highlighting / formatting
 	use("maxmellon/vim-jsx-pretty")
 	use{"fatih/vim-go", run = ':GoInstallBinaries'}
+
 	use("rust-lang/rust.vim")
+	use("simrat39/rust-tools.nvim")
 
 	-- quick commenting with gc/gcc/etc
 	use("tpope/vim-commentary")
@@ -30,7 +35,7 @@ return require("packer").startup(function(use)
 	}
 
 	-- fuzzy finder
-	use { 'junegunn/fzf'}
+	-- use { 'junegunn/fzf'}
 	
 	-- telescope for opening files
 	use {
@@ -38,6 +43,5 @@ return require("packer").startup(function(use)
 		requires = { { 'nvim-lua/plenary.nvim'} }
 	}
 
-	-- lsp
-	use 'neovim/nvim-lspconfig'
+
 end)

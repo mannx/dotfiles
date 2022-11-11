@@ -6,3 +6,17 @@ require'lspconfig'.gopls.setup{
 	end,
 
 }
+
+-- require("rust-tools").setup({
+local rt = require("rust-tools")
+
+rt.setup({
+	server = {
+		on_attach = function(_, buf)
+			-- hover
+			vim.keymap.set("n", "K", rt.hover_actions.hover_actions, { buffer = buf })
+		end,
+	},
+})
+
+rt.inlay_hints.set()
