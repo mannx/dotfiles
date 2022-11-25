@@ -298,7 +298,7 @@ set $ws3 "3:"
 set $ws4 "4:"
 set $ws5 "5:"
 set $ws6 "6:"
-set $ws7 "7"
+set $ws7 "7:"
 set $ws8 "8:"
 set $ws9 "9"
 set $ws10 "10"
@@ -320,7 +320,8 @@ assign [class="Thunderbird"] $ws4
 assign [class="TelegramDesktop"] $ws5
 
 assign [class="Spotify"] $ws6
-assign [class="Discord"] $ws7
+assign [class="Steam"] $ws7
+assign [class="Discord"] $ws8
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=Xfce4-terminal] focus
