@@ -322,7 +322,7 @@ assign [class="TelegramDesktop"] $ws5
 assign [class="Spotify"] $ws6
 assign [class="Steam"] $ws7
 assign [class="Lutris"] $ws7
-assign [class="Discord"] $ws8
+assign [class="discord"] $ws8
 
 # automatic set focus new window if it opens on another workspace then the current:
 for_window [class=Xfce4-terminal] focus
