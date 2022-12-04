@@ -27,3 +27,7 @@ nnoremap("<C-s>", function() require("harpoon.ui").nav_file(4) end, silent)
 
 -- telescope key binds
 nnoremap("<leader>ff", function() require("telescope.builtin").find_files() end, silent)
+
+-- center on page up/down
+nnoremap("<C-u>", "<C-u>zz")
+nnoremap("<C-d>", "<C-d>zz")

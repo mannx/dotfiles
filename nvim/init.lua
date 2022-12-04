@@ -30,8 +30,10 @@ vim.g.loaded = 1
 vim.g.loaded_netrwPlugin = 1
 
 -- set folding to indent
--- vim.opt.foldmethod = "indent"
--- vim.opt.foldlevel = 99
+
+-- disable continuing comments when new line
+vim.cmd("autocmd BufEnter * set formatoptions-=cro")
+vim.cmd("autocmd BufEnter * setlocal formatoptions-=cro")
 
 -- make sure rustfmt runs on save when working with rust files
 vim.g.rustfmt_autosave = 1
