@@ -70,9 +70,8 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git extract zsh-autosuggestions z)
-
-# ZSH_TMUX_AUTOSTART=true
+# plugins=(git extract zsh-autosuggestions z fzf-tab)
+plugins=(fzf git extract zsh-autosuggestions z)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -106,9 +105,6 @@ alias vim="nvim"
 
 export PATH=$PATH:/usr/local/go/bin
 
-# export GOPATH=~/golib
-# export PATH=$PATH:$GOPATH/bin
-# export GOPATH=~/code/
 export GOPATH=~/code/
 export PATH=$PATH:$GOPATH/bin
 
