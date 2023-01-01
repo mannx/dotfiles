@@ -1,6 +1,6 @@
 require("plugins")
 require("keys")
--- require("lsp")
+require("lsp")
 
 require("set")
 
