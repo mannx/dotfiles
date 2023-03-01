@@ -524,6 +524,8 @@ strip_workspace_numbers yes
 	}
 }
 
+bindsym $mod+b bar mode toggle
+
 # you can add different bars for multidisplay setups on each display:
 # set output HDMI-0 to the display you want the bar, --transparency can be set.
 # Transparency needs rgba color codes to be used where the last two letters are the transparency factor see here:
