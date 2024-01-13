@@ -71,7 +71,8 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 # plugins=(git extract zsh-autosuggestions z fzf-tab)
-plugins=(fzf git extract zsh-autosuggestions z)
+# export ZSH_TMUX_AUTOSTART=true
+plugins=(fzf git extract zsh-autosuggestions z )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -114,3 +115,4 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export EDITOR="nvim"
+

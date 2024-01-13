@@ -9,9 +9,9 @@ contents = [
     ( "kitty", "~/.config/kitty" ),
     ( "nvim", "~/.config/nvim" ),
     ( "zsh/.zshrc", "~/.zshrc" ),
-    ( "rofi", "~/.config/rofi" ),
-    ( "awesome", "~/.config/awesome" ),
-    ( "i3", "~/.config/i3" ),
+    #( "rofi", "~/.config/rofi" ),
+    #( "awesome", "~/.config/awesome" ),
+    #( "i3", "~/.config/i3" ),
 ]
 
 # base path of where we are (determine at runtime?)

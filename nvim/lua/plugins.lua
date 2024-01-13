@@ -61,13 +61,20 @@ return require("packer").startup(function(use)
 	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
 
 	-- tree view for file browsing
-	use {
-		'kyazdani42/nvim-tree.lua',
-		requires = {
-			'kyazdani42/nvim-web-devicons',
-		},
-		tag = 'nightly',
-	}
+	-- use {
+	-- 	'kyazdani42/nvim-tree.lua',
+	-- 	requires = {
+	-- 		'kyazdani42/nvim-web-devicons',
+	-- 	},
+	-- 	tag = 'nightly',
+	-- }
+
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons',
+        }
+    }
 
 	-- fuzzy finder
 	-- use { 'junegunn/fzf'}
