@@ -41,7 +41,7 @@ return require("packer").startup(function(use)
 
 	-- switch between freq used files
 	use("nvim-lua/plenary.nvim")
-	use("ThePrimeagen/harpoon")
+	-- use("ThePrimeagen/harpoon")
 
 	-- syntax highlighting / formatting
 	use("maxmellon/vim-jsx-pretty")
@@ -81,7 +81,7 @@ return require("packer").startup(function(use)
 	
 	-- telescope for opening files
 	use {
-		'nvim-telescope/telescope.nvim', tag = '0.1.0',
+		'nvim-telescope/telescope.nvim', tag = '0.1.5',
 		requires = { { 'nvim-lua/plenary.nvim'} }
 	}
 
