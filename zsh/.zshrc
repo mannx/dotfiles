@@ -108,6 +108,7 @@ export PATH=$PATH:/usr/local/go/bin
 
 export GOPATH=~/code/
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/home/pbr/.local/bin
 
 
 export NVM_DIR="$HOME/.nvm"
