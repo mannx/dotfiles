@@ -73,6 +73,9 @@ ZSH_THEME="robbyrussell"
 # plugins=(git extract zsh-autosuggestions z fzf-tab)
 # export ZSH_TMUX_AUTOSTART=true
 plugins=(fzf git extract zsh-autosuggestions z )
+# plugins=(fzf git extract z )
+
+# ZSH_TMUX_AUTOSTART="true"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -116,4 +119,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export EDITOR="nvim"
+# export CLASSPATH=".:/usr/local/lib/antlr-4.13.2-complete.jar:$CLASSPATH"
 
+# alias antlr4='java -Xmx500M -cp "/usr/local/lib/antlr-4.13.2-complete.jar:$CLASSPATH" org.antlr.v4.Tool'
+# alias grun='java -Xmx500M -cp "/usr/local/lib/antlr-4.13.2-complete.jar:$CLASSPATH" org.antlr.v4.gui.TestRig'
